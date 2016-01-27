@@ -33,9 +33,14 @@ __END__
     <head>
         <title>Aberdeen RAM</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="imgs/favicon.ico" />
     </head>
     
     <body>
+        <div id="headerpic"style="background-color:#000000">
+            <img src="imgs/TheRam.jpg" alt="Aberdeenram" style="height:300px"/>
+        <div/>
+        
         <%= yield %>        
     </body>
 </html>

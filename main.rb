@@ -5,6 +5,26 @@ get '/' do
     erb :index
 end
 
+get '/aboutus' do
+    erb :aboutus
+end
+
+get '/getinvolved' do
+    erb :getinvolved
+end
+
+get '/membership' do
+    erb :membership
+end
+
+get '/events' do
+    erb :events
+end
+
+get '/aberdeenguide' do
+    erb :aberdeenguide
+end
+
 __END__
 
 @@layout
